@@ -3,3 +3,17 @@
 	font-family: "Poppins", sans-serif;
 	box-sizing: border-box;
 }
+.container-main {
+	max-width: 100%;
+}
+.jumbotron {
+	background: url(../img/pizza.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	max-width: 100%;
+}
+.container1 {
+	color: rgb(12, 107, 145);
+	font-style: bold;
+}
