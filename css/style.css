@@ -169,3 +169,14 @@ body {
 	height: auto;
 	border-radius: 10px;
 }
+.btn-danger {
+	color: white;
+	background-color: #eb5757;
+	border: none;
+	border-radius: 0.3em;
+	font-weight: bold;
+}
+
+.btn-danger:hover {
+	background-color: #cc4c4c;
+}
