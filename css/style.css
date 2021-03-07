@@ -64,3 +64,65 @@ body {
 .btn-header:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 }
+.btn-play {
+	display: block;
+	margin: 0 auto;
+	color: #2d9cdb;
+	font-size: 4em;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	text-align: center;
+}
+
+.btn-primary {
+	color: white;
+	background-color: #56ccf2;
+	border: none;
+	border-radius: 0.3em;
+	font-weight: bold;
+}
+
+.btn-primary:hover {
+	background-color: #2d9cdb;
+}
+.shop-item {
+	margin: 30px;
+}
+
+.shop-item-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.shop-item-image {
+	height: 250px;
+	width: 20em;
+}
+#crust {
+	height: 10em;
+	width: 15em;
+}
+
+.shop-item-details {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.shop-item-price {
+	flex-grow: 1;
+	color: #333;
+}
+
+.shop-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
